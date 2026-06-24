@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-vm-demo"
+  name     = "rg-demo"
   location = "UK South"
 }
 
